@@ -1,0 +1,7 @@
+Welcome to Hello World
+===================
+Menu
+Burger: 8.5
+Pizza: 18.55
+Sandwich: 10.5
+Can not add new menu item. Limit exceeded!
