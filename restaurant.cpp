@@ -43,18 +43,10 @@ MenuItem* Restaurant::getItems(){
 //adders
 void Restaurant::addItem(MenuItem m)
 {
-    if(numItem < SIZE)
+    if(numItem < 3)
     {
-        for(int i = 0; i < numItem; i++)
-        {
-            if(items[i].getName() == "N/A")
-            {
-                items[i] = m;
-                numItem++;
-                break;
-            }
-            break;
-        }
+        items[numItem] = m;
+        numItem++;
     }
     else
     {
@@ -68,7 +60,7 @@ void Restaurant::displayRestaurantData()
     cout << "===================" << endl;
     cout << "Menu" << endl;
 
-    for(int i = 0; i < numItem; i++)
+    for(int i = 0; i < 3; i++)
     {
         items[i].displayMenuItemDataa();
     }

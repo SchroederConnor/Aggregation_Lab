@@ -9,7 +9,7 @@ int main(){
 
     // Create a MenuItem object named pizza using the parameterized constructor
     // Pass "Pizza" as the name and 18.55 as the price
-    MenuItem pizza = MenuItem("Pizza", 18.5);
+    MenuItem pizza = MenuItem("Pizza", 18.55);
 
     // Create a MenuItem object named sandwich using the parameterized constructor
     // Pass "Sandwich" as the name and 10.5 as the price
