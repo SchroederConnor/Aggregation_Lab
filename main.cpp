@@ -21,19 +21,17 @@ int main(){
 
     // Create a Restaurant object named restaurant using the parameterized constructor
     // Pass "Hello World" as the name, 3 as the number of item and items as the MenuItem array
-    
+    Restaurant restaurant("Hello World", items, 3);
 
     //call the displayRestaurantData method for the restaurant object
-    
+    restaurant.displayRestaurantData();
 
     // Create a MenuItem object named salad using the parameterized constructor
     // Pass "Salad" as the name and 10.75 as the price
-    
+    MenuItem salad = MenuItem("Salad", 10.75);
 
     //call the addItem method for the restaurant object to add item salad
-    
-    
-
+    restaurant.addItem(salad);
     
     //To pass the test your code should have exact output as the Output.txt so do not modify it.
     //Check the item name spelling/case and the newlines are exactly same in your output
